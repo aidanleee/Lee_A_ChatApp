@@ -1,0 +1,23 @@
+{
+  "name": "lee_a_chatapp",
+  "version": "1.0.0",
+  "description": "This is an interactive chat application. Users can talk, make friends and communicate through this application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aidanleee/Lee_A_ChatApp.git"
+  },
+  "author": "Aidan Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aidanleee/Lee_A_ChatApp/issues"
+  },
+  "homepage": "https://github.com/aidanleee/Lee_A_ChatApp#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
