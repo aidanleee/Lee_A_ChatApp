@@ -1,0 +1,16 @@
+header {
+    height: 50px;
+    text-transform: uppercase;
+    background-color: $blue;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    h1 {
+        font-size: 20px;
+        font-weight: normal;
+        color: white;
+    }
+}
