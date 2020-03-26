@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <!-- Start Splash Page Template -->
+    <main id="app">
+        <header>
+            <h1>Socket.io Chat Room</h1>
+        </header>
+
+        <section id="username">
+            <form>
+                <h2>Enter your name.</h2>
+                <input type="text" placeholder="Anonymous">
+                <input type="submit" value="Continue">
+            </form>
+        </section>
+    </main>
+    <!-- End Splash Page Template -->
+
+    <!-- Start Chat Template -->
+    <main id="app">
+        <header>
+            <h1>Socket.io Chat Room</h1>
+        </header>
+
+        <section id="messages">
+            <ul class="messages">
+                <!-- renders new component for every message -->
+                <p class="new-message my-message">
+                    <span>Aidan says:</span>
+                    Test
+                </p>
+                <p class="new-message">
+                    <span>Other User says:</span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati ipsam aliquid quibusdam ea officia laboriosam, maiores doloremque hic dignissimos inventore aspernatur, tempore rerum modi! Debitis, voluptatum? Eligendi vero hic doloremque.
+                </p>
+            </ul>
+        </section>
+
+        <form id="form">
+            <input type="text" autocomplete="off" id="textarea" placeholder="Message">
+            <button type="submit"><img src="images/send.svg"></button>
+        </form>
+    </main>
+    <!-- End Chat Template -->
+</body>
+</html>

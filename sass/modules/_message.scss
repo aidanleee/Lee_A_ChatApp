@@ -1,9 +1,26 @@
+#messages {
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 50px;
+    bottom: 50px;
+    overflow: auto;
+
+}
+
+.messages {
+	list-style-type: none; margin: 0; padding: 0;
+
+	li { padding: 5px 10px;	}
+	li:nth-child(odd) { background: #eee; }
+}
+
 .new-message { 
     span { font-size: 0.8rem; display: block; margin-bottom: 2px; }
 
     width: 45%;
     padding: 8px 12px;
-    background-color: white; 
+    background-color: #f5f5f5; 
     border-radius: 8px;
     margin-bottom: 1rem;
 
