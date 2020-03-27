@@ -6,6 +6,7 @@
     bottom: 0;
     display: flex;
     padding: 7px;
+    z-index: 1;
     #textarea {
         flex: 1;
         min-height: 36px;

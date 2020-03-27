@@ -17,9 +17,6 @@ const server = app.listen(port, () => {
     console.log(`app is running on port ${port}`);
 });
 
-// this is all of our socket.io messaging functionality
-
-// 2. attach socket.io
 io.attach(server);
 
 io.on('connection', function(socket) {
@@ -34,7 +31,7 @@ io.on('connection', function(socket) {
         // when we get a new message, send it to everyone so they see it
         // io is the switchboard operator, making sure everyone whos connected
         // gets the messages
-        io.emit('new_message', { id: socket.id, message: msg })
+        io.emit('new_message', { id: `${socket.id}`, message: msg })
     })
 
     // 3. listen for a disconect event
