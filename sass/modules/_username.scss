@@ -4,6 +4,9 @@
     width: 100%;
     top: 50px;
     bottom: 0;
+    z-index: 2;
+    background-color: white;
+    // display: none;
     form {
         max-width: 400px;
         display: inline-block;
